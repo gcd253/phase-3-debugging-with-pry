@@ -7,6 +7,11 @@ def prying_into_the_method
 	binding.pry
 	this_variable_hasnt_been_interpreted_yet = "The program froze before it could read me!" 
 	puts this_variable_hasnt_been_interpreted_yet
+	binding.pry
+	a_variable = 17
+	puts a_variable
+	a_float = 1.7
+	puts a_float
 end
 
 prying_into_the_method
